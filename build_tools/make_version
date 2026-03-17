@@ -75,5 +75,5 @@ elif [ -d .svn ]; then
         echo SVN-${RESULT}-r${REV}${BASE:+-${BASE}}
     fi
 else
-    echo "UNKNOWN__and_probably_unsupported"
+    echo "1.4.0-debian13"
 fi
